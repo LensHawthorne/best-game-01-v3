@@ -1,10 +1,21 @@
-# SKYHARBOR — Hold the Last Skyport
+# best-game-01-v3
 
-A tower-defence game for make.fun's **best-game-01** bounty ($1,000, "Make the
-best game"). You are the Skykeeper of the last skyport, a brass-and-timber dock
-floating above a sea of clouds at sunset. Sky pirates come in twelve waves.
-Build turrets on the dock, spend their salvage, and do not let a single one
-touch the core.
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/LensHawthorne/best-game-01-v3/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/LensHawthorne/best-game-01-v3/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+**SKYHARBOR — Hold the Last Skyport.** A tower-defence game for make.fun's
+**best-game-01** bounty ($1,000, "Make the best game"). You are the Skykeeper
+of the last skyport, a brass-and-timber dock floating above a sea of clouds at
+sunset. Sky pirates come in twelve waves. Build turrets on the dock, spend
+their salvage, and do not let a single one touch the core. 4 turrets x 3
+levels, 8 enemies + 2 bosses, 12 waves, a salvage economy, and 3 abilities.
+
+## Run it
+
+```sh
+node serve.ts        # then open http://localhost:8080
+```
 
 ## How to play
 
@@ -56,12 +67,10 @@ touch the core.
 real rules forward with an autopilot, so every screenshot is a real render of
 the game. The victory shot is a full game the autopilot genuinely wins.
 
-## Run it
-
-```sh
-node serve.ts        # then open http://localhost:8080
-```
-
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=n1cxkcak&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
